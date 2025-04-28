@@ -65,6 +65,7 @@ function App() {
             isComplete={todo.isComplete}
             value={todo.value}
             onClick={() => toggleTodo(index)}
+            deleteAllCompletedTodo={deleteAllCompletedTodo}
           />
         ))}
       </div>
