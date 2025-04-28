@@ -42,11 +42,6 @@ function App() {
     // console.log('todoList', todoList);
   }, [todoList]);
 
-  useEffect(() => {
-    // TODO: 완료된 경우 3초 후에 해당 TODO가 삭제되도록 구현
-    // TODO: 클린업까지 같이 구현
-  }, [todoList]);
-
   return (
     <div className="app">
       <h1 className="app-title">&#128466; To Do List</h1>
